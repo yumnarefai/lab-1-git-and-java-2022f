@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String refaiyum() {
+        return printLabMessage("Hello", "Yumna", true, "Starter to Java");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -60,9 +64,11 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(refaiyum());
 
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+
 
 }

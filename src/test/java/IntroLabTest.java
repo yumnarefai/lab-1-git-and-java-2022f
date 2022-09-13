@@ -30,8 +30,9 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 100)
     public void testYumna() {
-        String expected = "Hello! My name is Yumna!" + "I like cats more than dogs! Starter to Java";
+        String expected = "Hello! My name is Yumna!" + " I like cats more than dogs! Welcome to CSC207";
         String actual = IntroLab.refaiyum();
         assertEquals(expected, actual);
     }

@@ -41,9 +41,8 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
-
     public static String refaiyum() {
-        return printLabMessage("Hello", "Yumna", true, "Starter to Java");
+        return printLabMessage("Hello", "Yumna", true, "Welcome to CSC207");
     }
 
     /**
